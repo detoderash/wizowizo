@@ -1,0 +1,171 @@
+* { padding: 0; margin: 0; }
+html { height: 100%;}
+body {font-family: times new roman; font-size: 1.13em; padding: 0px;   margin: 0px; width: 100%; height: 100%; text-align: center; line-height: 15pt; overflow-x:hidden; color: #d7d7d7; background: url(../images/bg2.jpg) no-repeat fixed; background-size: 100% 100%; min-width: 1000px; }
+
+
+
+div.width {width:100%;}
+
+#like {  top:3px; height: 22px; padding-top:3px; width:255px; position:fixed; z-index:10; right: 104px; text-align: left; color: gray; padding-left: 5px; font-size: 10pt;}
+#beta {  top:3px; height: 22px; padding-top:3px; position:fixed; z-index:10; left: 164px; background:black; text-align: left; color: gray; padding-left: 14px; font-size: 10pt; width: 230px;}
+
+/* h3 {font-size:17px; font-weight: bold; margin-bottom: 5px; text-transform: uppercase;} */
+
+a.menu{ color: #5892bf;}
+a.order{ color: #5892bf;}
+a{ color: #979797; }
+.clear { clear: both; }
+p {margin-top:9pt;}
+.fish {opacity:0.1;}
+
+/*
+
+-moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+
+#logo {  top:3px; height: 50px; padding-top:31px; width:235px; position:fixed; z-index:10; left: 104px; background:url(../images/logo_bg.png) 8px 0% no-repeat; text-align: left; color: white;}
+*/
+
+h4 {font-weight: normal; }
+h3 {font-family: 'Roboto Slab', serif; letter-spacing: auto; font-size:21px; margin-bottom: 5px;}
+
+.quotes {text-align : left; max-width: 350px;}
+.quotes p {font-style: italic; font-size: 0.95em;}
+.quotes span {font-size: 10pt; display: block; margin-top: 5px; text-align: right;}
+
+a {color: #c9c9c9; font-size: 14pt; font-family: tahoma; padding-top: 4px;}
+
+/* First page */
+#page1 {height: 100%;}
+#holder { width: 100%; text-align: center; position: relative; min-height: 720px;}
+#logo_holder {text-align: center; position: relative;  margin-top: 2%; width: 100%;}
+.logo { display: inline-table; font-family: times new roman; font-size: 37pt; color: #949494; padding:0px 5px 0px 5px; margin: 0px; vertical-align: top; margin-top: 70px;} 
+#logo {display: inline-table; background: url(../images/w.png) 50% 50% no-repeat; opacity:0.8; background-size:45%; }
+.logo > * {vertical-align:middle; }
+
+#content1 {width: 100%; max-width: 1400px; text-align: center; display: inline-block; position: relative; margin-top: 30px;}
+#text_holder { margin-left: 0%; margin-top: 5px; float: left; max-width: 800px; min-height: 400px; text-align: right; display: inline-block;}
+#text_holder p{margin-left: 2%;}
+
+#main_menu  {float: left; padding-left: 1%; margin-top: 15px; z-index: 30; position: relative; display: inline-block;}
+#main_menu span {color: #c9c9c9; font-size: 10pt;  font-family: tahoma;}
+#main_menu li {list-style: none; margin-bottom: 10px;text-align: left;}
+#main_menu .icon {display: inline-block; vertical-align: top; text-align: right; width: 90px;}
+#main_menu .option {display: inline-block; vertical-align: top; text-align: left;padding:5px 0px 0px 5px;}
+#main_menu a.active {color: gray;}
+.option span { display: block; margin-top: 1px;}
+
+#ico_home {background: url(../images/ico_house.png) no-repeat 100% 0%; height: 60px;}
+#ico_team {background: url(../images/ico_ball.png) no-repeat 80% 50%; height: 50px;}
+#ico_works {background: url(../images/ico_tv.png) no-repeat 80% 50%; height: 50px;}
+#ico_contact {background: url(../images/ico_cage.png) no-repeat 80% 0%; height: 55px;}
+
+#quote1 {position: absolute;  height:200px; left: 50%; bottom:0;}
+
+#clouds {width: 100%; position: absolute; z-index: 0; height: 120px; bottom: 17%; text-align: left;}
+#cloud1 {margin-left: 3%; width: 100px; height: auto;}
+#cloud2 {margin-left: 3%; margin-left: 55%;}
+
+#hand_balloon {position: absolute; background: url(../images/hand_balloon.png) 100% 100% no-repeat; background-size: 69%;  height:500px; bottom: -510; width: 40%; right: 0; z-index: 2;}
+#hand_diri {height:33%; bottom: 5%; width: 100%;  z-index: 2; max-width: 1050px; position: absolute;}
+#hand_woman {margin-left: -150px; background: url(../images/hand_woman.png) 0% 50% no-repeat; background-size:auto 100%;  height:100%; width: 50%; z-index: 15; bottom:0; float: left;  position: absolute;}
+#diri {width: 65%; height: 70%; background: url(../images/diri.png) 0% 100% no-repeat; background-size: auto 100%; margin-left: 38%;  float: left; z-index: 0; top: 5%; position: absolute;}
+#screw {width: 11px;  position: absolute; left: 0px; bottom: 16%; margin-bottom: -13px;}
+#pro {width: 11px; height: 28px;  }
+.front, .back {background: url(../images/pro.png) no-repeat; width: 11px; height: 28px;}
+#bomb_holder {width: 31px;  position: absolute; top: 81.5%;  height: 100%; z-index: -5;}
+#bomb {background: url(../images/bomb.png) no-repeat; background-size:80%; width: 31px; height: 31px; display: none; z-index: -5;}
+
+#landscape {position: absolute; height:100px; width: 100%; top:100%; background: url(../images/ground.png) no-repeat; background-size: 100% 100%;}
+#mountains {width: 9999px;  background: url(../images/mountain.png) 0% 100% repeat-x; background-size: auto 95%;  height: 100px; margin-left: 0px; margin-top: 10px; }
+#mount_holder {overflow: hidden; bottom: 0; height: 100px; margin-left: 0px; position: absolute;}
+#land { width: 100%;  margin-top: 1px;}
+#space {height: 22px;}
+#space2 {height: 22px;}
+#space3 {height: 22px;}
+#trees {width: 9999px;  background: url(../images/trees1.png) 0% 100% repeat-x; height: 30px; background-size: auto 90%; margin-left: 0px; z-index: 5; margin-top: -14px;}
+#tree2  {width: 9999px;  background: url(../images/trees2.png) 0% 100% repeat-x; height: 50px; background-size: auto 100%; margin-left: 20px; z-index: 5;  margin-top: -11px;}
+#fence {width: 9999px;  background: url(../images/fence.png) 0% 100% repeat-x; height: 30px; background-size: auto 90%; margin-left: 0px; z-index: 5;  margin-top: -11px;}
+/* Enf 1st page */
+
+
+/* 2nd page, team */
+#abouts {width: 90%;  margin-top: 103px; max-width: 1500px;}
+#about1 {width: 33%; float: left; padding-right: 2%; text-align: left;}
+#about2 {width: 65%; float: left; text-align: left;}
+.div2 {-webkit-column-count:2;  -moz-column-count: 2; column-count: 2;}
+#street {text-align: left; width: 100%; height: 800px;  margin-top: 0%; background: url(../images/wizo_space.png) 0% 100% no-repeat; backround-size:100%; position: relative;}
+#hand_finger {position: absolute; background: url(../images/hand_finger.png) 100% 0% no-repeat; background-size:100%; width: 27%; height: 600px; z-index: 5; right: 0; margin-top: 300px; min-width: 440px;}
+#pilar {position: absolute; background: url(../images/stolb.png) 0% 0% no-repeat; background-size:100%; width: 23%; height: 600px; margin-top: 90px; min-width: 340px; max-width: 380px;}
+#pushin_up_my_buttons_babe {position: absolute; background: url(../images/button_on.png) 50% 50% no-repeat; opacity:0.8; background-size:90%; width: 37px; height: 57px; right: 9%; top: 63%;}     
+
+#light{background: url(../images/light.png) 0% 0% no-repeat; background-size:100% ; width: 900px; left: 340px; height: 730px; position: absolute; top: 1450px; opacity:0;}
+#ports_holder {width: 100%; margin-right: 0%; text-align: center; padding-top: 5%; margin-left: -30px; z-index: 5; }
+#portraits {width:auto; display: inline-block}
+#ports_holder .separator {height: 50px;  background: url(../images/wiban2.png) 50% 0% no-repeat;  background-size: 30%; margin-top: -5px;}
+.ports_block {display: inline-block; vertical-align: top;}
+.ports {display: inline-table; background: url(../images/frame.png) 50% 0% no-repeat; background-size:100%; padding: 10px; text-align: center; vertical-align: top; margin-left: 10px; margin-right: 10px;}
+.top2 {margin-top:0px;}
+.top1 {margin-top:0px;}
+.ports span {color: gray; font-size: 13px; display: block;}
+.port_img {width: auto; height: 105px; opacity:0.8; margin-top: 2px;}
+.name_holder {text-align: center; margin-top: 20px; font-size: 14px;}
+
+#plan2 { background: url(../images/plan2.png) 50% 100% no-repeat; backround-size:100%;  width: 100%; height: 100px; margin-top: 58px;}
+#plan1 { background: url(../images/plan1.png) 50% 100% no-repeat; backround-size:100%;  width: 100%; height: 100px; margin-top: -50px;}
+#space4 {  height: 40px;}
+#space5 {  height: 40px;}
+#spaceman {  background: url(../images/man.png) 50% 100% no-repeat; height: 338px; width: 275px; backround-size:100%; position: absolute;right: 20%; bottom: 45px;}
+
+
+.vacant {height: auto; padding-bottom: 17px;}
+.vacant span {color: gray; font-size: 13px; margin-top: 10px;}
+.vacant h1 {font-size: 40px; margin-bottom: 0px; color: gray; margin-top: 10px; margin-bottom: 0px;}
+
+#quote2 {margin-left:12%; margin-top: -50px; display: none;}
+/* Enf 2nd page */
+
+
+/* 3rd page, protfolio */
+
+
+/* Enf 3rd page */
+
+
+
+/* 4th page, contacts */
+#usermail {background: url(../images/envelope.png) no-repeat 5px; position: relative; z-index: 99;}
+#subj {background: url(../images/subj.png) no-repeat 5px; position: relative; z-index: 99;}
+#mailsend    {background: url(../images/net.png);  border-color: rgba(255,255,255,0.1); border-radius:2px; font-size: 15pt; width: 220px; height: 45px; color: white; margin-top: 10px; font-family: courier new; color: #979797; cursor: pointer; font-weight: bold;}
+#mailer_info {display: inline-table; width: 42%; text-align: left;}
+#mailer_info p {color: #979797;}
+div.mailer {width: 90%; border:2px solid; border-color: rgba(255,255,255,0.1); border-radius:2px; max-width: 700px; margin: 5px; margin-bottom: 15px;}
+input.mailer {width: 100%; background: transparent; border:0px; height: 35px; padding-left: 37px; color: #d8d8d8; font-size: 12pt; font-family: courier new;}
+textarea.mailer {width: 100%; background: transparent; border:0px; height: 274px; padding: 6px; color: #d8d8d8; font-size: 12pt; font-family: courier new;}
+#ps p {color: #979797;}
+#copyright p {color: #979797;}
+/* Enf 4th page */
+
+
+
+  /*
+            .rotating {
+            -webkit-animation: rotating 2s linear infinite;
+            -moz-animation: rotating 2s linear infinite;
+            -ms-animation: rotating 2s linear infinite;
+            -o-animation: rotating 2s linear infinite;
+            animation: rotating 2s linear infinite;
+            }
+            */
+
+
+
+
+       
+
+
+
+
