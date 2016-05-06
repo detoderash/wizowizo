@@ -1,3 +1,0 @@
-# wizowizo
-no desc
-
