@@ -36,22 +36,15 @@ $(document).ready(function() {
         var h1 = parseInt($('#hand_woman').height());  
         w1 = h1+(h1/6);
         $('#diri').animate({marginLeft: w1+'px'}, 0);
-
         var w8 = w/10*8;
 
 
 
-       
-
-
-
-        if (w <= 1160) $("#dim_css").attr('href', "files/style_1160.css");
-        else if (w <= 1300) $("#dim_css").attr('href', "files/style_1300.css");
-        else if (w <= 1366) $("#dim_css").attr('href', "files/style_1366.css");
-        else if (w < 1450) $("#dim_css").attr('href', "files/style_1450.css");
-        else $("#dim_css").attr('href', "files/style_holder.css");
-
-
+        if (w <= 1160) $("#dim_css").attr('href', "../css/style_1160.css");
+        else if (w <= 1300) $("#dim_css").attr('href', "../css/style_1300.css");
+        else if (w <= 1366) $("#dim_css").attr('href', "../css/style_1366.css");
+        else if (w < 1450) $("#dim_css").attr('href', "../css/style_1450.css");
+        else $("#dim_css").attr('href', "../css/style_holder.css");
 
 
 
@@ -67,7 +60,7 @@ $(document).ready(function() {
         var screw_bottom = Math.round(c2*0.85);
         $('#screw').css('marginLeft', screw_left+'px');
         //$('#screw').css('bottom', screw_bottom+'px');
-        
+             
          var bomb_left = Math.round(c1*4.7);
          $('#bomb_holder').css('marginLeft', bomb_left+'px');
 

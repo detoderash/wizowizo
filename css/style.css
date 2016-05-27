@@ -28,13 +28,13 @@ transform: scale(-1, 1);
 
 #logo {  top:3px; height: 50px; padding-top:31px; width:235px; position:fixed; z-index:10; left: 104px; background:url(../images/logo_bg.png) 8px 0% no-repeat; text-align: left; color: white;}
 */
-
+#analyzer{display: none;}
 h4 {font-weight: normal; }
 h3 {font-family: 'Roboto Slab', serif; letter-spacing: auto; font-size:21px; margin-bottom: 5px;}
 
 .quotes {text-align : left; max-width: 350px;}
-.quotes p {font-style: italic; font-size: 0.95em;}
-.quotes span {font-size: 10pt; display: block; margin-top: 5px; text-align: right;}
+.quotes p {font-style: italic; font-size: 0.9em;}
+.quotes span {font-size: 10pt; display: block; margin-top: 1px; text-align: right;}
 
 a {color: #c9c9c9; font-size: 14pt; font-family: tahoma; padding-top: 4px;}
 
@@ -63,32 +63,32 @@ a {color: #c9c9c9; font-size: 14pt; font-family: tahoma; padding-top: 4px;}
 #ico_works {background: url(../images/ico_tv.png) no-repeat 80% 50%; height: 50px;}
 #ico_contact {background: url(../images/ico_cage.png) no-repeat 80% 0%; height: 55px;}
 
-#quote1 {position: absolute;  height:200px; left: 50%; bottom:0;}
+#quote1 {position: absolute;  height:200px; left: 50%; bottom:0; margin-bottom: 0px}
 
-#clouds {width: 100%; position: absolute; z-index: 0; height: 120px; bottom: 17%; text-align: left;}
-#cloud1 {margin-left: 3%; width: 100px; height: auto;}
-#cloud2 {margin-left: 3%; margin-left: 55%;}
+#clouds {width: 100%; position: absolute; z-index: 0; height: 120px; bottom: 20%; margin-bottom: -20px; text-align: left;}
+#clouds img {display: inline-block;}
+#cloud1 {margin-left: 3%; width: 100px; height: auto; }
+#cloud2 {margin-left: 35%; margin-bottom: -100px; width: 70px; height: auto;}
+#cloud3 {margin-left: 35%; }
 
-#hand_balloon {position: absolute; background: url(../images/hand_balloon.png) 100% 100% no-repeat; background-size: 69%;  height:500px; bottom: -510; width: 40%; right: 0; z-index: 2;}
-#hand_diri {height:33%; bottom: 5%; width: 100%;  z-index: 2; max-width: 1050px; position: absolute;}
-#hand_woman {margin-left: -150px; background: url(../images/hand_woman.png) 0% 50% no-repeat; background-size:auto 100%;  height:100%; width: 50%; z-index: 15; bottom:0; float: left;  position: absolute;}
+#hand_balloon {position: absolute; background: url(../images/hand_balloon.png) 100% 100% no-repeat; background-size: 72%;  height:500px; bottom: -510; width: 40%; right: 0; z-index: 2;}
+#hand_diri {height:33%; bottom: 5%; width: 100%;  z-index: 2; max-width: 1050px; position: absolute; left: -30px;}
+#hand_woman {margin-left: -160px; margin-bottom: -160px; background: url(../images/hand_woman.png) 0% 50% no-repeat; background-size:auto 100%;  height:100%; width: 50%; z-index: 15; bottom:0; float: left;  position: absolute;}
 #diri {width: 65%; height: 70%; background: url(../images/diri.png) 0% 100% no-repeat; background-size: auto 100%; margin-left: 38%;  float: left; z-index: 0; top: 5%; position: absolute;}
 #screw {width: 11px;  position: absolute; left: 0px; bottom: 16%; margin-bottom: -13px;}
-#pro {width: 11px; height: 28px;  }
+#pro {width: 11px; height: 28px;  opacity: 0.8;}
 .front, .back {background: url(../images/pro.png) no-repeat; width: 11px; height: 28px;}
 #bomb_holder {width: 31px;  position: absolute; top: 81.5%;  height: 100%; z-index: -5;}
 #bomb {background: url(../images/bomb.png) no-repeat; background-size:80%; width: 31px; height: 31px; display: none; z-index: -5;}
 
-#landscape {position: absolute; height:100px; width: 100%; top:100%; background: url(../images/ground.png) no-repeat; background-size: 100% 100%;}
+#landscape {position: absolute; height:100px; width: 100%; top:100%; margin-top: 0px; background: url(../images/ground.png) no-repeat; background-size: 100% 100%;}
 #mountains {width: 9999px;  background: url(../images/mountain.png) 0% 100% repeat-x; background-size: auto 95%;  height: 100px; margin-left: 0px; margin-top: 10px; }
-#mount_holder {overflow: hidden; bottom: 0; height: 100px; margin-left: 0px; position: absolute;}
+#mount_holder {overflow: hidden; bottom: 0; margin-bottom: -0px; height: 100px; margin-left: 0px; position: absolute;}
 #land { width: 100%;  margin-top: 1px;}
-#space {height: 22px;}
-#space2 {height: 22px;}
-#space3 {height: 22px;}
-#trees {width: 9999px;  background: url(../images/trees1.png) 0% 100% repeat-x; height: 30px; background-size: auto 90%; margin-left: 0px; z-index: 5; margin-top: -14px;}
-#tree2  {width: 9999px;  background: url(../images/trees2.png) 0% 100% repeat-x; height: 50px; background-size: auto 100%; margin-left: 20px; z-index: 5;  margin-top: -11px;}
-#fence {width: 9999px;  background: url(../images/fence.png) 0% 100% repeat-x; height: 30px; background-size: auto 90%; margin-left: 0px; z-index: 5;  margin-top: -11px;}
+.space {height: 22px;}
+#trees {width: 9999px;  background: url(../images/trees1.png) 0% 100% repeat-x; height: 30px; background-size: auto 90%; margin-left: 0px; z-index: 5; margin-top: -16px;}
+#tree2  {width: 9999px;  background: url(../images/trees2.png) 0% 100% repeat-x; height: 50px; background-size: auto 110%; margin-left: 20px; z-index: 5;  margin-top: -13px;}
+#fence {width: 9999px;  background: url(../images/fence.png) 0% 100% repeat-x; height: 30px; background-size: auto 80%; margin-left: 0px; z-index: 5;  margin-top: -17px;}
 /* Enf 1st page */
 
 
@@ -97,14 +97,12 @@ a {color: #c9c9c9; font-size: 14pt; font-family: tahoma; padding-top: 4px;}
 #about1 {width: 33%; float: left; padding-right: 2%; text-align: left;}
 #about2 {width: 65%; float: left; text-align: left;}
 .div2 {-webkit-column-count:2;  -moz-column-count: 2; column-count: 2;}
-#street {text-align: left; width: 100%; height: 800px;  margin-top: 0%; background: url(../images/wizo_space.png) 0% 100% no-repeat; backround-size:100%; position: relative;}
-#hand_finger {position: absolute; background: url(../images/hand_finger.png) 100% 0% no-repeat; background-size:100%; width: 27%; height: 600px; z-index: 5; right: 0; margin-top: 300px; min-width: 440px;}
-#pilar {position: absolute; background: url(../images/stolb.png) 0% 0% no-repeat; background-size:100%; width: 23%; height: 600px; margin-top: 90px; min-width: 340px; max-width: 380px;}
-#pushin_up_my_buttons_babe {position: absolute; background: url(../images/button_on.png) 50% 50% no-repeat; opacity:0.8; background-size:90%; width: 37px; height: 57px; right: 9%; top: 63%;}     
+#team {text-align: left; width: 100%;  margin-top: -50px;  position: relative;}
+/* #hand_finger {position: absolute; background: url(../images/hand_finger.png) 100% 0% no-repeat; background-size:100%; width: 27%; height: 600px; z-index: 5; right: 0; margin-top: 300px; min-width: 440px;} */
+  
 
-#light{background: url(../images/light.png) 0% 0% no-repeat; background-size:100% ; width: 900px; left: 340px; height: 730px; position: absolute; top: 1450px; opacity:0;}
-#ports_holder {width: 100%; margin-right: 0%; text-align: center; padding-top: 5%; margin-left: -30px; z-index: 5; }
-#portraits {width:auto; display: inline-block}
+#ports_holder {width: 100%; margin-right: 0%; text-align: center; padding-top: 6%; margin-left: -30px; z-index: 5; }
+#portraits {width:auto; display: inline-block; margin-top: 30px}
 #ports_holder .separator {height: 50px;  background: url(../images/wiban2.png) 50% 0% no-repeat;  background-size: 30%; margin-top: -5px;}
 .ports_block {display: inline-block; vertical-align: top;}
 .ports {display: inline-table; background: url(../images/frame.png) 50% 0% no-repeat; background-size:100%; padding: 10px; text-align: center; vertical-align: top; margin-left: 10px; margin-right: 10px;}
@@ -114,23 +112,34 @@ a {color: #c9c9c9; font-size: 14pt; font-family: tahoma; padding-top: 4px;}
 .port_img {width: auto; height: 105px; opacity:0.8; margin-top: 2px;}
 .name_holder {text-align: center; margin-top: 20px; font-size: 14px;}
 
-#plan2 { background: url(../images/plan2.png) 50% 100% no-repeat; backround-size:100%;  width: 100%; height: 100px; margin-top: 58px;}
-#plan1 { background: url(../images/plan1.png) 50% 100% no-repeat; backround-size:100%;  width: 100%; height: 100px; margin-top: -50px;}
-#space4 {  height: 40px;}
-#space5 {  height: 40px;}
-#spaceman {  background: url(../images/man.png) 50% 100% no-repeat; height: 338px; width: 275px; backround-size:100%; position: absolute;right: 20%; bottom: 45px;}
-
-
 .vacant {height: auto; padding-bottom: 17px;}
 .vacant span {color: gray; font-size: 13px; margin-top: 10px;}
 .vacant h1 {font-size: 40px; margin-bottom: 0px; color: gray; margin-top: 10px; margin-bottom: 0px;}
+
+
+.spaceground {background: url(../images/wizo_space.png) 0% 0% no-repeat; background-size:100%; padding-top: 160px; margin-top: -150px; position: relative;}
+#plan2 { background: url(../images/plan2.png) 50% 100% no-repeat; background-size:100%;  width: 100%; height: 100px; margin-top: 5px;}
+#plan1 { background: url(../images/plan1.png) 50% 100% no-repeat; background-size:100%;  width: 100%; height: 100px; margin-top: -50px;}
+.space1 {  height: 40px;}
+#selphie {position: absolute;right: 0; bottom: -0px; margin-bottom: 0px}
+#spaceman {  background: url(../images/man.png) 50% 100% no-repeat; height: 338px; margin-left: 15%; width: 275px; background-size:100%;  margin-bottom: 0px}
+#spaceman_hand {  background: url(../images/hand_light.png) 50% 100% no-repeat; height: 438px; width:635px; background-size: 100%;  margin-top: -330px;}
+.zonder {background: url(../images/zonder.png) 50% 50% no-repeat; background-size:100%; width: 100px; height: 100px;}
+#zonder1 {position: absolute; left: 10%; top: -50%;} 
+#spaceship {background: url(../images/spaceship.png) 50% 50% no-repeat; background-size:70%; width: 100px; height: 100px; position: absolute; right: 5%; top: -40%;}
+
+
+
+
 
 #quote2 {margin-left:12%; margin-top: -50px; display: none;}
 /* Enf 2nd page */
 
 
 /* 3rd page, protfolio */
-
+.holder {display: flex; justify-content: space-around; width: 100%; }
+.text {display: flex; width: 100%; max-width: 1400px; justify-content: space-between; margin-top: 70px}
+.pre_portfolio {text-align: left; width: 49%;}
 
 /* Enf 3rd page */
 
