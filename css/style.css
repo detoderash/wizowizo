@@ -72,7 +72,7 @@ a {color: #c9c9c9; font-size: 14pt; font-family: tahoma; padding-top: 4px;}
 #cloud3 {margin-left: 35%; }
 
 #hand_balloon {position: absolute; background: url(../images/hand_balloon.png) 100% 100% no-repeat; background-size: 72%;  height:500px; bottom: -510; width: 40%; right: 0; z-index: 2;}
-#hand_diri {height:33%; bottom: 5%; width: 100%;  z-index: 2; max-width: 1050px; position: absolute; left: -30px;}
+#hand_diri {height:33%; bottom: 5%; width: 100%;  z-index: 2; max-width: 1050px; position: absolute; left: -30px; margin-left: -50px}
 #hand_woman {margin-left: -160px; margin-bottom: -160px; background: url(../images/hand_woman.png) 0% 50% no-repeat; background-size:auto 100%;  height:100%; width: 50%; z-index: 15; bottom:0; float: left;  position: absolute;}
 #diri {width: 65%; height: 70%; background: url(../images/diri.png) 0% 100% no-repeat; background-size: auto 100%; margin-left: 38%;  float: left; z-index: 0; top: 5%; position: absolute;}
 #screw {width: 11px;  position: absolute; left: 0px; bottom: 16%; margin-bottom: -13px;}
@@ -99,7 +99,7 @@ a {color: #c9c9c9; font-size: 14pt; font-family: tahoma; padding-top: 4px;}
 .div2 {-webkit-column-count:2;  -moz-column-count: 2; column-count: 2;}
 #team {text-align: left; width: 100%;  margin-top: -50px;  position: relative;}
 /* #hand_finger {position: absolute; background: url(../images/hand_finger.png) 100% 0% no-repeat; background-size:100%; width: 27%; height: 600px; z-index: 5; right: 0; margin-top: 300px; min-width: 440px;} */
-  
+
 
 #ports_holder {width: 100%; margin-right: 0%; text-align: center; padding-top: 6%; margin-left: -30px; z-index: 5; }
 #portraits {width:auto; display: inline-block; margin-top: 30px}
@@ -137,9 +137,17 @@ a {color: #c9c9c9; font-size: 14pt; font-family: tahoma; padding-top: 4px;}
 
 
 /* 3rd page, protfolio */
-.holder {display: flex; justify-content: space-around; width: 100%; }
+.holder {display: flex; justify-content: space-around;  width: 100%; }
 .text {display: flex; width: 100%; max-width: 1400px; justify-content: space-between; margin-top: 70px}
 .pre_portfolio {text-align: left; width: 49%;}
+#folio_holder {margin-top: 50px; width: 100%; text-align: center; display: flex; justify-content: center; height: 500px}
+#folio_holder .holder {max-width: 1400px; justify-content: center;}
+.portfolio {max-width: 1090px; display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; align-content: flex-start;}
+.portfolio .item {margin:5px; margin-top: 15px; width: 170px; height: 140px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;}
+.portfolio .item a {font-size: 16px; display: block;}
+.portfolio .item span {font-size: 15px; display: block; color: #878787}
+#hashtags {text-align: left; color: #d6d6d6; font-size: 15px; margin-left: 50px; }
+#hashtags ul {list-style: none; margin-top: 40px;}
 
 /* Enf 3rd page */
 
@@ -173,7 +181,7 @@ textarea.mailer {width: 100%; background: transparent; border:0px; height: 274px
 
 
 
-       
+
 
 
 

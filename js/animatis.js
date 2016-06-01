@@ -24,14 +24,14 @@ function scroll_action(){
     if (st > 0 && st <1400) scene1_animo();
     else scene1_animo_stop();
 
-    //1st scene parallax
+    //1st scene
     if (st >= fence.top-wh+20 && st < fence.top){   
         parallax (topDelta, $('.space'), 'height', 0.5, Array (0, 22));
         parallax (topDelta, $('#clouds'), 'marginBottom', 1.2, Array (-60, 0));    
         bombing();
     }
 
-    //1st scene parallax
+    //1st scene 
     if (st >= plan1.top-wh-40 && st < plan1.top){
         parallax (topDelta, $('.space1'), 'height', 1, Array (0, 40));
         parallax (topDelta, $('#selphie'), 'marginBottom', -3.5, Array (0, 115));
